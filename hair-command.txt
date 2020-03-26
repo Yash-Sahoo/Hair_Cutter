@@ -1,0 +1,16 @@
+create table users
+(name varchar(30), password varchar(20),
+ phno varchar(15),haircut varchar(10),
+ beardcut varchar(10), haircolor varchar(10),
+ entry datetime, outof datetime, rate
+ int(5), bk_id int(5) primary key
+ auto_increment, email varchar(30), booked
+ int(5));
+
+create table allowance
+(permission varchar(10))
+
+//(permit/denied)
+
+create table dat
+(timing timestamp)
